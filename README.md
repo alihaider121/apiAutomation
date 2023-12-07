@@ -48,12 +48,27 @@ apiAutomation/
 |-- package.json
 |-- README.md
 ```
-### Tests 
-GET Request TestDescription: 
-Test the GET request functionality for a public API.File: cypress/integration/commonHttpActions/get.spec.jsAssertions: Validate the response status, content type, and specific data.
-PUT Request TestDescription: Test the PUT request functionality for a public API.File: cypress/integration/commonHttpActions/put.spec.jsAssertions: Confirm the successful update of data.
-POST Request TestDescription: Test the POST request functionality for a public API.File: cypress/integration/commonHttpActions/post.spec.jsAssertions: Verify the creation of new data and the response details.
-DELETE Request TestDescription: Test the DELETE request functionality for a public API.File: cypress/integration/commonHttpActions/delete.spec.jsAssertions: Ensure the successful deletion of data.
-Mochawesome ReportThe tests generate Mochawesome reports for clear and detailed test results. Access the reports in the mochawesome-report folder after test execution.
-Automated User Authentication 
-Automated Authentication TestDescription: Automate the user authentication process for a specific API.File: cypress/integration/userAuthentication/automatedAuthentication.spec.jsAssertions: Confirm successful authentication and access to protected resources.
+# Tests
+### GET Request Test
+- **Description** : Test the GET request functionality for a public API.File.
+- **File** :  cypress/integration/commonHttpActions/get.spec.jsAssertions: 
+- **Assertion** :Validate the response status, content type, and specific data.
+### PUT Request Test
+- **Description** : Test the PUT request functionality for a public API.
+- **File** :  cypress/integration/commonHttpActions/put.spec.js
+- **Assertion** Confirm the successful update of data.
+### POST Request Test
+- **Description**  Test the POST request functionality for a public API.
+- **File** : cypress/integration/commonHttpActions/post.spec.js
+- **Assertion** Verify the creation of new data and the response details.
+### DELETE Request Test
+- **Description** Test the DELETE request functionality for a public API.
+- ** File **: cypress/integration/commonHttpActions/delete.spec.js
+- **Assertion** : Ensure the successful deletion of data.
+# Mochawesome Report:
+The tests generate Mochawesome reports for clear and detailed test results. 
+Access the reports in the mochawesome-report folder after test execution.
+# Automated User 
+- **Description**: Automate the user authentication process for a specific API.
+- ** File **: cypress/integration/userAuthentication/automatedAuthentication.spec.js
+- ** Assertions **: Confirm successful authentication and access to protected resources.
