@@ -21,12 +21,12 @@ This repository contains automated tests for public APIs using Cypress. The test
    git clone https://github.com/alihaider121/apiAutomation.git
 
 2. Install dependencies:
-   Bash
+```bash
   npm install
-
+```
 3. Folder Structure
-
-   apiAutomation/
+```
+apiAutomation/
 |-- cypress/
 |   |-- fixtures/
 |   |   |-- example.json
@@ -47,7 +47,7 @@ This repository contains automated tests for public APIs using Cypress. The test
 |-- cypress.json
 |-- package.json
 |-- README.md
-
+```
 ### Tests 
 GET Request TestDescription: 
 Test the GET request functionality for a public API.File: cypress/integration/commonHttpActions/get.spec.jsAssertions: Validate the response status, content type, and specific data.
