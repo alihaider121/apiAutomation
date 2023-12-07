@@ -26,8 +26,7 @@ This repository contains automated tests for public APIs using Cypress. The test
 
 3. Folder Structure
 
-
-apiAutomation/
+   apiAutomation/
 |-- cypress/
 |   |-- fixtures/
 |   |   |-- example.json
@@ -49,8 +48,7 @@ apiAutomation/
 |-- package.json
 |-- README.md
 
-
-Tests 
+### Tests 
 GET Request TestDescription: 
 Test the GET request functionality for a public API.File: cypress/integration/commonHttpActions/get.spec.jsAssertions: Validate the response status, content type, and specific data.
 PUT Request TestDescription: Test the PUT request functionality for a public API.File: cypress/integration/commonHttpActions/put.spec.jsAssertions: Confirm the successful update of data.
