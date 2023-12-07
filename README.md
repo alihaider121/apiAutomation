@@ -70,5 +70,5 @@ The tests generate Mochawesome reports for clear and detailed test results.
 Access the reports in the mochawesome-report folder after test execution.
 # Automated User 
 - **Description**: Automate the user authentication process for a specific API.
-- ** File **: cypress/integration/userAuthentication/automatedAuthentication.spec.js
-- ** Assertions **: Confirm successful authentication and access to protected resources.
+- **File**: cypress/integration/userAuthentication/automatedAuthentication.spec.js
+- **Assertions**: Confirm successful authentication and access to protected resources.
