@@ -30,12 +30,12 @@ apiAutomation/
 |-- cypress/
 |   |-- fixtures/
 |   |   |-- example.json
-|   |-- integration/
+|   |-- e2e/
 |   |   |-- commonHttpActions/
-|   |   |   |-- get.spec.js
-|   |   |   |-- put.spec.js
-|   |   |   |-- post.spec.js
-|   |   |   |-- delete.spec.js
+|   |   |   |-- get.cy.js
+|   |   |   |-- put.cy.js
+|   |   |   |-- post.cy.js
+|   |   |   |-- delete.cy.js
 |   |   |-- userAuthentication/
 |   |   |   |-- automatedAuthentication.spec.js
 |   |-- plugins/
